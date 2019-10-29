@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './Header';
+import Header from './header/Header';
 import Footer from './Footer';
-import Character from './Character';
+import Character from './character/Character';
 import List from './List';
 import charArray from '../data/charArray.js';
 
