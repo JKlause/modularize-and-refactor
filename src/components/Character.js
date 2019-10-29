@@ -2,16 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Character = ({ img, name, species }) => (
-  <dl>
-    <dt>Img</dt>
-    <dd>{img}</dd>
-  
-    <dt>Name</dt>
-    <dd>{name}</dd>
-  
-    <dt>species</dt>
-    <dd>{species}</dd>
-  </dl>
+  <div>
+    <img src={img} />
+    <h2>Name: {name}</h2>
+    <h3>Species: {species}</h3>
+  </div>
 );
 
 export default Character;
