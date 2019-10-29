@@ -10,7 +10,7 @@ const List = ({ items, Component }) => {
 
   return (
     <>
-    Component{myComponents}
+      {myComponents}
     </>
   );
 };
