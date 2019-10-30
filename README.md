@@ -5,5 +5,8 @@
 ### Author: Joe Klause
 
 ### Links and Resources
-* [submission PR](https://github.com/JKlause/webpack-initializer/pull/1)
-* [travis](https://travis-ci.com/JKlause/webpack-initializer/)
+* [submission PR](https://github.com/JKlause/modularize-and-refactor/pull/1)
+* [travis](https://travis-ci.com/JKlause/modularize-and-refactor/)
+
+npm run start
+go to localhost:7890
