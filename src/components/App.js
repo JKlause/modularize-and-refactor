@@ -9,7 +9,7 @@ import charArray from '../data/charArray.js';
 const App = () => (
   <>
     <Header />
-    <List
+    <List 
       items={charArray}
       Component={Character} />
     <Footer />

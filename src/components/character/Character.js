@@ -1,8 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './Character.css';
 
 const Character = ({ img, name, species }) => (
-  <div>
+  <div className={styles.character}>
     <img src={img} />
     <h2>Name: {name}</h2>
     <h3>Species: {species}</h3>

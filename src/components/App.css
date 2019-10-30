@@ -1,0 +1,6 @@
+.app {
+  width: 100vw;
+  background-color: blue;
+  display: flex;
+  justify-content: space-evenly;
+}

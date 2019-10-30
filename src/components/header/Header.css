@@ -1,9 +1,8 @@
-.rick {
-
+.header {
   width: 100vw;
- display: flex;
- justify-content: center;
+  display: flex;
+  justify-content: center;
   h1 {
-  color: red;
-}
+    color: red;
+  }
 }
