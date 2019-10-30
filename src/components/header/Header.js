@@ -1,9 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
-import styles from './Header';
+import styles from './Header.css';
 
 const Header = () => (
-  <header>
+  <header className={styles.rick}>
     <h1>The 'Best' Characters of Rick and Morty</h1>
   </header>
 );

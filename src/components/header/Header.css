@@ -1,9 +1,9 @@
-header {
-  width: 100%;
-  height: 200px;
-  display: flex;
-  align-items: center;
+.rick {
+
+  width: 100vw;
+ display: flex;
+ justify-content: center;
+  h1 {
+  color: red;
 }
-h1 {
- 
 }

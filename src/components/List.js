@@ -4,8 +4,7 @@ import PropTypes from 'prop-types';
 const List = ({ items, Component }) => {
 
   const myComponents = items.map(item => {
-    // eslint-disable-next-line react/jsx-key
-    return <Component {...item}/>;
+    return <Component key={item.name} {...item}/>;
   });
 
   return (

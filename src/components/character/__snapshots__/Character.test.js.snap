@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character component matches a snapshot 1`] = `
+<div>
+  <img
+    src="https://rickandmortyapi.com/api/character/avatar/2.jpeg"
+  />
+  <h2>
+    Name: 
+    Morty Smith
+  </h2>
+  <h3>
+    Species: 
+    Human
+  </h3>
+</div>
+`;

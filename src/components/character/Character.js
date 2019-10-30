@@ -13,6 +13,6 @@ export default Character;
 
 Character.propTypes = {
   img: PropTypes.string.isRequired,
-  name: PropTypes.number.isRequired,
+  name: PropTypes.string.isRequired,
   species: PropTypes.string.isRequired
 };
