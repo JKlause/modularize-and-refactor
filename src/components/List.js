@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './App.css';
+import styles from './List.css';
 
 const List = ({ items, Component }) => {
 
@@ -9,9 +9,9 @@ const List = ({ items, Component }) => {
   });
 
   return (
-    <React.Fragment className={styles.app}>
+    <div className={styles.list}>
       {myComponents}
-    </React.Fragment>
+    </div>
   );
 };
 

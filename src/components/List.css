@@ -1,6 +1,6 @@
-.app {
-  width: 100vw;
-  background-color: blue;
+.list {
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
